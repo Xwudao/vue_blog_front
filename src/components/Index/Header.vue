@@ -29,6 +29,11 @@
                                     <i class="iconfont icon-solution-"></i>说说
                                 </router-link>
                             </li>
+                            <li class="nav-item">
+                                <router-link class="nav-link" :to="{name: 'Todo'}">
+                                    <i class="iconfont icon-solution-"></i>TODO
+                                </router-link>
+                            </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0" onsubmit="return false;">
                             <input class="form-control mr-sm-2" type="search" name="keyword" id="input-keyword"

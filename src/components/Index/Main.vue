@@ -9,6 +9,7 @@
                 <SolutionList v-if="$route.name === 'SolutionList'"/>
                 <SolutionDetail v-if="$route.name === 'SolutionDetail'"/>
                 <Archive v-if="$route.name === 'Archive'"/>
+                <Todo v-if="$route.name === 'Todo'"/>
                 <Sidebar/>
             </div>
         </div>
@@ -24,6 +25,7 @@
     import SolutionList from '@/components/Index/SolutionList';
     import SolutionDetail from '@/components/Index/SolutionDetail';
     import Archive from '@/components/Index/Archive';
+    import Todo from '@/components/Index/Todo';
 
     export default {
         name: "Main",
@@ -42,6 +44,7 @@
             SolutionList,
             SolutionDetail,
             Archive,
+            Todo,
         }
     }
 </script>

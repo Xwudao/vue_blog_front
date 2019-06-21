@@ -7,6 +7,7 @@ import Say from '@/components/Index/Say';
 import SolutionList from '@/components/Index/SolutionList';
 import SolutionDetail from '@/components/Index/SolutionDetail';
 import Archive from '@/components/Index/Archive';
+import Todo from '@/components/Index/Todo';
 
 Vue.use(Router);
 
@@ -46,6 +47,11 @@ export default new Router({
             path: '/archive/',
             name: 'Archive',
             component: Archive
+        },
+        {
+            path: '/todo/',
+            name: 'Todo',
+            component: Todo
         },
         // {
         //   path: '/about',
